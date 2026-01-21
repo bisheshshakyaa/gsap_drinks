@@ -61,7 +61,8 @@ const Menu = () => {
                 isActive
                   ? "text-white border-white"
                   : "text-white/50 border-white/50"
-              }`} onClick={()=> goToSlide}
+              }`}
+              onClick={() => goToSlide(index)}
             >
               {cocktail.name}
             </button>
